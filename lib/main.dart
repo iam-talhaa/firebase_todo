@@ -19,6 +19,11 @@ class _MyappState extends State<Myapp> {
         appBar: AppBar(
           title: Text("TESTIN"),
         ),
+        body: Column(
+          children: [
+            Text('TExttin'),
+          ],
+        ),
       ),
     );
   }
