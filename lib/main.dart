@@ -16,13 +16,14 @@ class _MyappState extends State<Myapp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        floatingActionButton: FloatingActionButton(onPressed: () {}),
         appBar: AppBar(
           title: Text("TESTIN"),
         ),
         body: Column(
-          children: [
-            Text('TExttin'),
-          ],
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [Center(child: Text('TExttin')), Text('PAKISTAN')],
         ),
       ),
     );
