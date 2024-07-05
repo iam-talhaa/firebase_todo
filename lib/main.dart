@@ -23,7 +23,11 @@ class _MyappState extends State<Myapp> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [Center(child: Text('TExttin')), Text('PAKISTAN')],
+          children: [
+            Center(child: Text('TExttin')),
+            Text('PAKISTAN'),
+            Text('PAKISTAN')
+          ],
         ),
       ),
     );
