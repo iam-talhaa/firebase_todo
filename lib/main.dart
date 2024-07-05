@@ -26,6 +26,7 @@ class _MyappState extends State<Myapp> {
           children: [
             Center(child: Text('TExttin')),
             Text('PAKISTAN'),
+            Text('PAKISTAN'),
             Text('PAKISTAN')
           ],
         ),
